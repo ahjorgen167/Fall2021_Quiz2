@@ -1,0 +1,14 @@
+#QuizHeader {
+    width: 100%;
+    border-bottom: 2px solid orangered;
+}
+
+#QuizHeader a {
+    font-size: 36px;
+    color: orange;
+    text-decoration: none;
+}
+
+#QuizHeader a:first-child {
+    margin-right: 25px;
+}

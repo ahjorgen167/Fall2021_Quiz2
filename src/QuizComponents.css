@@ -1,0 +1,31 @@
+#SelectedLoserForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#SelectedFriend {
+  border-bottom: 5px solid brown;
+  margin-top: 6px;
+}
+
+#TicTacToeBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+  grid-template-rows: repeat(3, 30px);
+  gap: 0;
+
+}
+
+.TicTacToeTile {
+  border: 1px solid rebeccapurple;
+  padding: 8px;  
+
+}
+
+#TicTacToeWinner {
+  border: 5px solid brown;
+  margin-top: 6px;
+  display: inline-block;
+  padding: 25px;
+}
